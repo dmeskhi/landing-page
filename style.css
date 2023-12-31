@@ -19,11 +19,20 @@ body {
 }
 
 .header {
-    
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 1024px;
+    border: #f9faf8 2px solid;
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1024px;
+    border: #f9faf8 2px solid;
+    margin-top: 50px;
 }
 
 .logo {
@@ -32,6 +41,8 @@ body {
     color: #f9faf8;
     padding: 24px;
   }
+
+  
 
   ul {
     /* this removes the dots on the list items*/
