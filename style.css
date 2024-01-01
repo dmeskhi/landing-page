@@ -5,6 +5,7 @@ body {
     margin: 0px;
     padding: 0px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -18,9 +19,26 @@ body {
     width: 1440px;
 }
 
+.section-two-container { 
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1440px;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    width: 1024px;
+    /*border: #f9faf8 2px solid;*/
+    margin-bottom: 50px;
+}
+
+.info-header-container {
+    display: flex;
+    justify-content: center;
     align-items: center;
     width: 1024px;
     /*border: #f9faf8 2px solid;*/
@@ -52,6 +70,12 @@ body {
     padding: 0px;
     margin: 10px 0px 10px 0px;
  }
+
+.info-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
 
 .logo {
     font-size: 24px;
