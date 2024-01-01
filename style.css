@@ -26,6 +26,16 @@ body {
     align-items: center;
     justify-content: center;
     width: 1440px;
+    
+}
+
+.section-three-container { 
+    background: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1440px;
 }
 
 .header {
@@ -42,6 +52,7 @@ body {
     justify-content: space-between;
     align-items: center;
     gap: 50px;
+    
     /*border: #f9faf8 2px solid;*/
     
 }
