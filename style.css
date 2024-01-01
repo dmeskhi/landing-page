@@ -23,13 +23,19 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 1024px;
-    border: #f9faf8 2px solid;
+    /*border: #f9faf8 2px solid;*/
     margin-bottom: 50px;
 }
 
 .header-content-left {
     
     padding: 24px;
+    width: 50%;
+}
+
+.header-content-right {
+    
+    padding: 24px 8px 24px 24px;
     width: 50%;
 }
 
@@ -54,7 +60,16 @@ body {
     padding: 24px;
   }
 
-
+  .placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #696767;
+    border: 1px solid #696767;
+    width: auto;
+    height: 250px;
+    
+  }
 
   ul {
     /* this removes the dots on the list items*/
