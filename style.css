@@ -57,6 +57,15 @@ body {
     
 }
 
+.section-three-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 960px;
+        
+}
+
+
 .info-header-container {
     display: flex;
     justify-content: center;
@@ -104,6 +113,18 @@ body {
     text-align: center;
     width: 150px;
     margin-bottom: 50px;
+ }
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: lighter;
+ }
+
+ b {
+    font-size: 24px;
+    float: right;
+    padding: 35px 35px 0px 0px;
  }
 
 .info-header {
@@ -173,4 +194,7 @@ body {
     color: white;
     padding: 8px 24px;
     width: 150px;
+  }
+  blockquote {
+    margin: 50px;
   }
