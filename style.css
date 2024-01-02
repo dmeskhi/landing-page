@@ -9,7 +9,7 @@ body {
     justify-content: center;
     align-items: center;
 }
-
+/* Header css goes here */
 .header-container { 
     background: #1f2937;
     display: flex;
@@ -19,6 +19,27 @@ body {
     width: 1440px;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1024px;
+  /*border: #f9faf8 2px solid;*/
+  margin-bottom: 50px;
+}
+
+.header-content-left {
+  padding: 24px;
+  width: 50%;
+}
+
+.header-content-right {
+  padding: 24px 8px 24px 24px;
+  width: 50%;
+}
+/*Header css ends here*/
+
+/*Section two css goes here*/
 .section-two-container { 
     background: #ffffff;
     display: flex;
@@ -29,6 +50,31 @@ body {
     
 }
 
+.section-two-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  /*border: #f9faf8 2px solid;*/  
+}
+
+.info-header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1024px;
+  /*border: #f9faf8 2px solid;*/
+  margin-bottom: 50px;
+}
+
+.info-header {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+}
+/*Section two css ends here*/
+
+/*Section three css goes here*/
 .section-three-container { 
     background: #e5e7eb;
     display: flex;
@@ -38,56 +84,32 @@ body {
     width: 1440px;
 }
 
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 1024px;
-    /*border: #f9faf8 2px solid;*/
-    margin-bottom: 50px;
-}
-
-.section-two-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 50px;
-    
-    /*border: #f9faf8 2px solid;*/
-    
-}
-
 .section-three-content {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 960px;
-        
+    width: 960px;        
+}
+/*Section three css ends here*/
+
+/*Section four css goes here*/
+.section-four-container { 
+  background: #ffffff;
+  display: flex;
+  /*flex-direction: column;*/
+  align-items: center;
+  justify-content: center;
+  width: 1440px;
 }
 
-
-.info-header-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 1024px;
-    /*border: #f9faf8 2px solid;*/
-    margin-bottom: 50px;
+.modal-box {
+  border-radius: 25px;
+  border: 4px solid #3882f6;
+  padding: 15px;
+  width: 150px;
+  height: 150px;
 }
-
-
-
-.header-content-left {
-    
-    padding: 24px;
-    width: 50%;
-}
-
-.header-content-right {
-    
-    padding: 24px 8px 24px 24px;
-    width: 50%;
-}
+/*Section four css ends here*/
 
 .main-text {
     font-size: 48px;
@@ -126,12 +148,6 @@ body {
     float: right;
     padding: 35px 35px 0px 0px;
  }
-
-.info-header {
-    font-size: 36px;
-    font-weight: bolder;
-    color: #1f2937;
-}
 
 .logo {
     font-size: 24px;
