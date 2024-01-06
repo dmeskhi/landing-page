@@ -64,7 +64,7 @@ body {
   align-items: center;
   width: 1024px;
   /*border: #f9faf8 2px solid;*/
-  margin-bottom: 50px;
+  margin: 50px 0px 50px 0px;
 }
 
 .info-header {
@@ -124,6 +124,10 @@ body {
   /*flex-direction: column;*/
   align-items: center;
   width: 1440px;
+}
+
+.footer {
+  padding: 50px;
 }
 /*Footer ends here*/
 
